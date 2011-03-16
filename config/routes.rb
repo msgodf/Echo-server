@@ -1,4 +1,7 @@
 Echoserver::Application.routes.draw do
+
+resources :echo
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
